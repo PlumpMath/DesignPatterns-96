@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Sin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Structural\Decorator\Decorator.csproj", "{003EA12D-9083-462B-A5A9-63C283A3F14E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{6A9A8DF7-6C83-4752-A905-C83106772370}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{6A9A8DF7-6C83-4752-A905-C83106772370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
