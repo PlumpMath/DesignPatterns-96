@@ -9,7 +9,7 @@ namespace Flyweight
 
     #region Participants
     //Flyweight : declares an interface through which flyweights can receive and act on extrinsic state.
-    //FlyweightFactory : creates and manages flyweight objects
+    //FlyweightFactory : creates and manages flyweight objects 
     #endregion
 
     /// <summary>
