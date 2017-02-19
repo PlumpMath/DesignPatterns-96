@@ -49,6 +49,10 @@ namespace Bridge
         string Get(IFormatter formatter);
     }
 
+
+    /// <summary>
+    /// ConcreteImplementor
+    /// </summary>
     public class Report : IReport
     {
         public string Name { get; set; }
