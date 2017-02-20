@@ -10,7 +10,7 @@ namespace Adapter
     //Client : collaborates with objects conforming to the Target interface
     #endregion
 
- 
+        
     /// <summary>
     /// Target
     /// </summary>

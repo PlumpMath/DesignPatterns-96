@@ -2,7 +2,7 @@
 
 namespace Decorator
 {
-
+    //
     public interface ICrmService
     {
         void Save(int id);

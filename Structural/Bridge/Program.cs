@@ -13,10 +13,11 @@ namespace Bridge
     #endregion
 
 
-
+       
     /// <summary>
     /// Abstraction
     /// </summary>
+    /// 
     public interface IFormatter
     {
         string Format(string value);

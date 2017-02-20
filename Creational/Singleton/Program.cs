@@ -8,8 +8,8 @@ namespace Singleton
 {
     #region Participants
     //Ensure a class has only one instance and provide a global point of access to it.
-    //Singleton : defines an Instance operation that lets clients access its unique instance.Instance is a class operation. responsible for creating and maintaining its own unique instance.
-    #endregion
+    //Singleton : defines an Instance operation that lets clients access its unique instance.Instance is a class operation. responsible for creating and maintaining its own unique instance. 
+    #endregion 
 
     public class LogService
     {

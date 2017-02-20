@@ -15,6 +15,7 @@ namespace Flyweight
     /// <summary>
     /// Flyweight
     /// </summary>
+    /// 
     public interface IProductService
     {
         string GetName();

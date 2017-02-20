@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-
+    //
     public interface ILogService
     {
         void Save();

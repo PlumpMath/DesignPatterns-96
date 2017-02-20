@@ -10,6 +10,7 @@ namespace Facade
     //intent in short, you put a facade in front of the complex code.
     //Facade :knows which subsystem classes are responsible for a request. delegates client requests to appropriate subsystem objects.
     //Subsystem classes  
+
     #endregion  
 
     /// <summary>

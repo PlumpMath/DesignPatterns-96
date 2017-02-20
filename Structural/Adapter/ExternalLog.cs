@@ -4,7 +4,9 @@ namespace Adapter
 {
 
 
-    ///Adaptee
+    /// <summary>
+    /// Adaptee
+    /// </summary>
 
     public interface IExternalLog
     {

@@ -14,6 +14,7 @@ namespace Decorator
     /// <summary>
     /// Component
     /// </summary>
+    /// 
     public interface ICustomerService
     {
         bool CreateUser(string name);
