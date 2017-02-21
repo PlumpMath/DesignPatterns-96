@@ -36,18 +36,14 @@ namespace Builder
         private string footer;
         private List<string> urls;
 
-     
         public void Header()
         {
             header = "<ul>\n";
         }
-
         public void Footer()
         {
             footer = "</ul>\n";
         }
-
-
         public void Page(string url)
         {
             if (urls == null)
@@ -55,7 +51,6 @@ namespace Builder
 
             urls.Add(url);
         }
-
         public string GetContent()
         {
             StringBuilder content = new StringBuilder();
@@ -80,13 +75,10 @@ namespace Builder
             header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
                 + "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n";
         }
-
         public void Footer()
         {
             footer = "</urlset>\n</xml>\n";
         }
-
-
         public void Page(string url)
         {
             if (urls == null)
@@ -94,7 +86,6 @@ namespace Builder
 
             urls.Add(url);
         }
-
         public string GetContent()
         {
             StringBuilder content = new StringBuilder();
@@ -125,7 +116,6 @@ namespace Builder
             _data.Add("www.test.com/page2");
             _data.Add("www.test.com/page3");
         }
-
         public string Maker(SiteMapBuilder siteMapBuilder)
         {
             siteMapBuilder.Header();
